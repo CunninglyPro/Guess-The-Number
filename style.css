@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(circle at 10% 20%, rgb(99, 55, 255) 0%, rgb(39, 170, 255) 90%);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    margin: 100px 26%;
+    background-color: lightblue;
+    width: 50%;
+    height: 58%;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.container h1, #info {
+    margin-bottom: 10px;
+}
+
+.container .title {
+    background-color: #D6E9FC;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: 5px 10px 50px #D6E9FC;
+}
+
+.container .title p {
+    color: darkblue;
+}
+
+#info {
+    color: red;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#numberInput {
+    margin-top: 10px;
+    padding: 3px;
+    font-size: 16px;
+    outline: none;
+    width: 35%;
+}
+
+#guessBtn {
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 17px;
+    background-color: #208CF7;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+#guessBtn:hover {
+    cursor: pointer;
+}
+
+.container .score_and_time {
+    width: 100%;
+    text-align: left;
+    margin-top: 45px;
+}
+
+.scoreTime {
+    display: inline;
+}
+
+#time_label {
+    margin-left: 73%;
+}
+
+#score, #time {
+    color: red;
+}

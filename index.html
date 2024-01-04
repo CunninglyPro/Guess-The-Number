@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Guess the Number</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="title">
+            <h1>Guess The Number</h1>
+            <p>In this game you have to guess the number (which the computer generates) from 1 - 10 in 10 seconds</p>
+        </div>
+
+        <p id="info"></p>
+
+        <div class="wrapper">
+            <input type="number" placeholder="Enter a number from 1 to 10" id="numberInput">
+            <br>
+            <button id="guessBtn" onclick="generateNumber();">Guess</button>
+        </div>
+
+        <div class="score_and_time">
+            <h3 class="scoreTime" id="score_label">Score: <span id="score"></span></h3>
+            <h3 class="scoreTime" id="time_label">Time: <span id="time"></span></h3>
+        </div>
+
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
